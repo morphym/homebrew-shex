@@ -25,7 +25,7 @@ class Shex < Formula
   end
 
   def install
-    bin.install Dir["shex-*/shex"].first
+    bin.install "shex"
   end
 
   test do
